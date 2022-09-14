@@ -324,6 +324,10 @@
     [
       "3b22a2f7-b29a-4d17-ab95-ad9be8231bab",
       "psu"
+    ],
+    [
+      "2aa537c7-efb0-46e2-81ad-fe9eeab0e71a",
+      "Mcu"
     ]
   ],
   "text_variables": {}

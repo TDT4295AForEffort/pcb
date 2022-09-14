@@ -8,6 +8,18 @@
   )
 
 
+  (sheet (at 50.8 67.31) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2aa537c7-efb0-46e2-81ad-fe9eeab0e71a)
+    (property "Sheet name" "Mcu" (id 0) (at 50.8 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 50.8 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 187.96 55.88) (size 67.31 41.91) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -23,10 +35,17 @@
   (sheet_instances
     (path "/" (page "1"))
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab" (page "2"))
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a" (page "3"))
   )
 
   (symbol_instances
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/6a054e2c-9b61-4bed-bb95-4932ecc64fa8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/82540ebe-ae45-4a3b-b014-5475e7748ef9"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/8fad61f1-caec-4bd2-8a47-154405c74a01"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/af94f33e-d0a9-49cb-b1b8-3bb69002e84c"
@@ -47,6 +66,9 @@
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/d56c8276-bd34-46fb-9a57-4c5b45f309b8"
       (reference "C?") (unit 1) (value "C") (footprint "")
     )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/e52181f5-4ebd-4390-9f3e-8b706699623c"
+      (reference "J?") (unit 1) (value "mcu_debug") (footprint "")
+    )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/0a1f7319-eb04-45b9-bba9-aeb36a6e7048"
       (reference "L?") (unit 1) (value "INDUCTOR") (footprint "")
     )
@@ -58,6 +80,12 @@
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/ac17eab2-4668-4181-93b9-b7f81cd1902b"
       (reference "U?") (unit 1) (value "TPS54325PWPR") (footprint "PWP14_2P31X2P46")
+    )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/b46b5297-888f-43e6-926a-ebe8736d3108"
+      (reference "U?") (unit 1) (value "EFM32GG990F1024") (footprint "BGA112")
+    )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/59d85119-1b53-4847-86a0-a45d6daac7e6"
+      (reference "U?") (unit 2) (value "EFM32GG990F1024") (footprint "BGA112")
     )
   )
 )
