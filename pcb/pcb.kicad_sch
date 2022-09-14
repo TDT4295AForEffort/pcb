@@ -1,0 +1,63 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 0c91bb81-d679-42bf-b5a7-84271c6ff4f0)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 187.96 55.88) (size 67.31 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3b22a2f7-b29a-4d17-ab95-ad9be8231bab)
+    (property "Sheet name" "psu" (id 0) (at 187.96 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "psu.kicad_sch" (id 1) (at 187.96 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/6a054e2c-9b61-4bed-bb95-4932ecc64fa8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/af94f33e-d0a9-49cb-b1b8-3bb69002e84c"
+      (reference "#PWR?") (unit 1) (value "+1V0") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/ca18b02e-2c9f-4dcd-87c0-cef18cd222d5"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/672cb3c6-b843-4b05-84dc-7a16cc09a503"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/938f023e-7921-4804-a8a3-90b6fa90503d"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/cad89cc1-8a26-45b6-afba-23ece0dde4be"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/d56c8276-bd34-46fb-9a57-4c5b45f309b8"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/0a1f7319-eb04-45b9-bba9-aeb36a6e7048"
+      (reference "L?") (unit 1) (value "INDUCTOR") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/6648e752-281e-433d-944f-ca4ed5ec9448"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/960c8ecf-ee9c-4b67-ab10-482b5fd9cca2"
+      (reference "U?") (unit 1) (value "TPS54294PWP") (footprint "PWP16_2P31X2P46")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/ac17eab2-4668-4181-93b9-b7f81cd1902b"
+      (reference "U?") (unit 1) (value "TPS54325PWPR") (footprint "PWP14_2P31X2P46")
+    )
+  )
+)

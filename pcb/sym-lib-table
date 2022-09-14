@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "TPS54294PWP")(type "Legacy")(uri "${KIPRJMOD}/../components/TPS54294PWP/2022-09-14_10-33-36.lib")(options "")(descr ""))
+  (lib (name "TPS54325PWPR")(type "Legacy")(uri "${KIPRJMOD}/../components/TPS54325PWPR/2022-09-14_10-28-16.lib")(options "")(descr ""))
+)
