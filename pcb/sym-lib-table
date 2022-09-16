@@ -1,6 +1,6 @@
 (sym_lib_table
   (lib (name "TPS54294PWP")(type "Legacy")(uri "${KIPRJMOD}/../components/TPS54294PWP/2022-09-14_10-33-36.lib")(options "")(descr ""))
   (lib (name "TPS54325PWPR")(type "Legacy")(uri "${KIPRJMOD}/../components/TPS54325PWPR/2022-09-14_10-28-16.lib")(options "")(descr ""))
-  (lib (name "Carl_symboler")(type "KiCad")(uri "/home/baba/pcb/pcb/components/carl_datamaskin.kicad_sym")(options "")(descr ""))
-  (lib (name "mcu_symboler")(type "Legacy")(uri "/home/baba/pcb/pcb/components/kicad mcu/2022-09-13_15-05-51.lib")(options "")(descr ""))
+  (lib (name "Carl_symboler")(type "KiCad")(uri "${KIPRJMOD}/../components/carl_datamaskin.kicad_sym")(options "")(descr ""))
+  (lib (name "mcu_symboler")(type "Legacy")(uri "${KIPRJMOD}/../components/kicad mcu/2022-09-13_15-05-51.lib")(options "")(descr ""))
 )
