@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "TPS54294")(type "KiCad")(uri "${KIPRJMOD}/../components/TPS54294PWP/footprints.pretty")(options "")(descr ""))
   (lib (name "TPS54325")(type "KiCad")(uri "${KIPRJMOD}/../components/TPS54325PWPR/footprints.pretty")(options "")(descr ""))
+  (lib (name "mcu_kicad")(type "KiCad")(uri "/home/baba/pcb/pcb/components/kicad mcu/footprints.pretty")(options "")(descr ""))
 )
