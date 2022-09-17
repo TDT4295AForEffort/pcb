@@ -1083,7 +1083,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cb7f5d44-b0c7-4d95-876a-fd8c77eb7aed)
     (property "Reference" "U?" (id 0) (at 96.52 44.45 0))
-    (property "Value" "XC7A100T-FTG256" (id 1) (at 96.52 46.99 0))
+    (property "Value" "" (id 1) (at 96.52 46.99 0))
     (property "Footprint" "" (id 2) (at 96.52 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
