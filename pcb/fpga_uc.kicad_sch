@@ -1085,7 +1085,7 @@
     (property "Reference" "U?" (id 0) (at 67.31 79.3749 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "" (id 1) (at 67.31 81.9149 0)
+    (property "Value" "XC7A100T-FTG256" (id 1) (at 67.31 81.9149 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 100.33 77.47 0)
