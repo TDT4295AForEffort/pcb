@@ -328,6 +328,26 @@
     [
       "2aa537c7-efb0-46e2-81ad-fe9eeab0e71a",
       "Mcu"
+    ],
+    [
+      "dbb9269c-2e1d-45f8-8e1c-bd9e85f54732",
+      "fpga"
+    ],
+    [
+      "6c6185b8-38aa-42b6-83ec-b7aa299eca7c",
+      "fpga ua"
+    ],
+    [
+      "7b9478e0-4d57-4f5c-ab5f-3ba4f727f3e1",
+      "fpga ub"
+    ],
+    [
+      "5d8097f5-d418-4d31-ac76-6640e1270020",
+      "fgpa uc"
+    ],
+    [
+      "0a9dd894-fb4f-4eca-a01e-a922517d068a",
+      "fpga ud"
     ]
   ],
   "text_variables": {}
