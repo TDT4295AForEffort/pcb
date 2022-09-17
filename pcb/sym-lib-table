@@ -5,4 +5,5 @@
   (lib (name "mcu_symboler")(type "Legacy")(uri "${KIPRJMOD}/../components/kicad mcu/2022-09-13_15-05-51.lib")(options "")(descr ""))
   (lib (name "COM-09032")(type "Legacy")(uri "${KIPRJMOD}/../components/joystick/COM-09032.lib")(options "")(descr ""))
   (lib (name "dk_Pushbutton-Switches")(type "Legacy")(uri "${KIPRJMOD}/../components/digikey-symbols/dk_Pushbutton-Switches.lib")(options "")(descr ""))
+  (lib (name "1658525-9")(type "Legacy")(uri "${KIPRJMOD}/../components/1658525-9-ribbon/1658525-9.lib")(options "")(descr ""))
 )
