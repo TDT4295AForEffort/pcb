@@ -328,6 +328,10 @@
     [
       "2aa537c7-efb0-46e2-81ad-fe9eeab0e71a",
       "Mcu"
+    ],
+    [
+      "13d19f4d-d99a-4eb6-9f7c-8adebd8a5c1e",
+      "onboard_controller"
     ]
   ],
   "text_variables": {}
