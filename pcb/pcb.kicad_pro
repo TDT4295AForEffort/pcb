@@ -432,6 +432,14 @@
       "fpga"
     ],
     [
+      "388f1c0f-c03d-4ff8-b5bc-f0707333d9df",
+      "vga"
+    ],
+    [
+      "ba36af6f-fbbc-4c19-acae-5c6f894a857f",
+      "sram"
+    ],
+    [
       "6c6185b8-38aa-42b6-83ec-b7aa299eca7c",
       "fpga ua"
     ],
@@ -440,12 +448,12 @@
       "fpga ub"
     ],
     [
-      "5d8097f5-d418-4d31-ac76-6640e1270020",
-      "fgpa uc"
-    ],
-    [
       "0a9dd894-fb4f-4eca-a01e-a922517d068a",
       "fpga ud"
+    ],
+    [
+      "5d8097f5-d418-4d31-ac76-6640e1270020",
+      "fgpa uc"
     ]
   ],
   "text_variables": {}

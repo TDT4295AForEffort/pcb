@@ -9,4 +9,5 @@
   (lib (name "S25FL127SABMFV101")(type "Legacy")(uri "${KIPRJMOD}/../components/S25FL127SABMFV101/S25FL127SABMFV101.lib")(options "")(descr ""))
   (lib (name "LTST-C191KFKT")(type "Legacy")(uri "${KIPRJMOD}/../components/led/LTST-C191KFKT.lib")(options "")(descr ""))
   (lib (name "618015330923")(type "Legacy")(uri "${KIPRJMOD}/../components/vga/618015330923.lib")(options "")(descr ""))
+  (lib (name "sram")(type "Legacy")(uri "${KIPRJMOD}/../components/sram/sram.lib")(options "")(descr ""))
 )
