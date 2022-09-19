@@ -4,4 +4,6 @@
   (lib (name "mcu_kicad")(type "KiCad")(uri "${KIPRJMOD}/../components/kicad mcu/footprints.pretty")(options "")(descr ""))
   (lib (name "digikey-footprints")(type "KiCad")(uri "${KIPRJMOD}/../components/digikey-footprints.pretty")(options "")(descr ""))
   (lib (name "1658525-9-ribbon")(type "KiCad")(uri "${KIPRJMOD}/../components/1658525-9-ribbon.pretty")(options "")(descr ""))
+  (lib (name "led")(type "KiCad")(uri "${KIPRJMOD}/../components/led.pretty")(options "")(descr ""))
+  (lib (name "vga")(type "KiCad")(uri "${KIPRJMOD}/../components/vga/footprints.pretty")(options "")(descr ""))
 )
