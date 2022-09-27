@@ -7,4 +7,5 @@
   (lib (name "led")(type "KiCad")(uri "${KIPRJMOD}/../components/led.pretty")(options "")(descr ""))
   (lib (name "vga")(type "KiCad")(uri "${KIPRJMOD}/../components/vga/footprints.pretty")(options "")(descr ""))
   (lib (name "sram")(type "KiCad")(uri "${KIPRJMOD}/../components/sram/footprints.pretty")(options "")(descr ""))
+  (lib (name "sd")(type "KiCad")(uri "${KIPRJMOD}/../components/sd/footprints.pretty")(options "")(descr ""))
 )

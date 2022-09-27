@@ -10,4 +10,5 @@
   (lib (name "LTST-C191KFKT")(type "Legacy")(uri "${KIPRJMOD}/../components/led/LTST-C191KFKT.lib")(options "")(descr ""))
   (lib (name "618015330923")(type "Legacy")(uri "${KIPRJMOD}/../components/vga/618015330923.lib")(options "")(descr ""))
   (lib (name "sram")(type "Legacy")(uri "${KIPRJMOD}/../components/sram/sram.lib")(options "")(descr ""))
+  (lib (name "sd")(type "Legacy")(uri "${KIPRJMOD}/../components/sd/2022-09-22_12-29-35.lib")(options "")(descr ""))
 )

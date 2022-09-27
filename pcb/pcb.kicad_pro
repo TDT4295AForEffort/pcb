@@ -440,6 +440,18 @@
       "sram"
     ],
     [
+      "ce991ad9-d139-48ae-ab8f-bfb9221b9871",
+      "sd"
+    ],
+    [
+      "345a30ee-ee7e-4460-bf0f-fe91d93f898e",
+      "MCU_DEBUG"
+    ],
+    [
+      "e53d6fe0-5317-46c0-be61-5e705913826e",
+      "MCU_DEBUG_LEDS"
+    ],
+    [
       "6c6185b8-38aa-42b6-83ec-b7aa299eca7c",
       "fpga ua"
     ],

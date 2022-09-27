@@ -526,13 +526,10 @@
     (uuid fea7233e-72d7-4647-bc90-5a6cbfaa4d8e)
   )
 
-  (text "her må motsdanden regnes ut" (at 55.88 77.47 0)
+  (text "These are the exact values, we will have to approximate them."
+    (at 53.975 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1c21a390-87f1-4fb0-86aa-eeb3d87813c1)
-  )
-  (text "TODO: hook up to fpga\n" (at 20.32 17.78 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 992820c5-e614-41a7-ab14-a396939bd05e)
   )
   (text "kilde: https://xess.com/blog/vga-the-rest-of-the-story/\nlitt usikker på verdiene, blir det ikke mer en 0.7v til vga?"
     (at 19.05 35.56 0)
