@@ -162,6 +162,15 @@
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/48fcae11-f9ff-42e3-bef3-ef75c2f6d3c9"
       (reference "#FLG0301") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/4de8685c-8936-4848-ae0b-4a62a334ac18"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/cc27a37f-102d-42fa-9aeb-18d02f64a675"
+      (reference "#PWR0102") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/be9cf1f2-8922-4c0b-b309-32cbda96273f"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/a5ec9a41-e8d4-4f29-9778-e4003fd3d2b0"
       (reference "#PWR0201") (unit 1) (value "+1V8") (footprint "")
     )
@@ -258,9 +267,6 @@
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/13d19f4d-d99a-4eb6-9f7c-8adebd8a5c1e/6df0f064-f5aa-4b98-983c-eb6a63bda432"
       (reference "#PWR0403") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/13d19f4d-d99a-4eb6-9f7c-8adebd8a5c1e/991e2709-d307-406f-a406-da21cbabce94"
-      (reference "#PWR0404") (unit 1) (value "GND") (footprint "")
-    )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/13d19f4d-d99a-4eb6-9f7c-8adebd8a5c1e/ac5f9986-c9fa-4add-92ea-c4ab6a0cc3af"
       (reference "#PWR0405") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -308,12 +314,6 @@
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/ce991ad9-d139-48ae-ab8f-bfb9221b9871/7cfb4b5c-f82b-4c83-9f91-b53b94fe897c"
       (reference "#PWR0803") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/56be78db-1b9f-4e20-b21c-0fd2f7699d0d"
-      (reference "#PWR0901") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/2077e633-d1b5-4592-a00c-083b1376f601"
-      (reference "#PWR0902") (unit 1) (value "GND") (footprint "")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/e53d6fe0-5317-46c0-be61-5e705913826e/812ab804-1bbd-4aab-be7a-cac5578f4204"
       (reference "#PWR01001") (unit 1) (value "GND") (footprint "")
@@ -676,7 +676,7 @@
       (reference "D1004") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/d385458d-0d15-4cee-a9bb-fe542b80e7d9"
-      (reference "J301") (unit 1) (value "Conn_02x07_Top_Bottom") (footprint "")
+      (reference "J301") (unit 1) (value "Conn_02x07_Top_Bottom") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/b966edd4-36c8-4437-bad1-e4a0cca3180e"
       (reference "J302") (unit 1) (value "1658525-9") (footprint "1658525-9-ribbon:TE_1658525-9")
@@ -687,14 +687,14 @@
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/ce991ad9-d139-48ae-ab8f-bfb9221b9871/1299cd7f-5c3e-4d11-9ed1-a289ae98c4c6"
       (reference "J801") (unit 1) (value "10067847-001RLF") (footprint "10067847-001RLF_AMP")
     )
-    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/afda87f0-f9be-4e27-947f-895e627be46d"
-      (reference "J901") (unit 1) (value "mcu_debug") (footprint "")
-    )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/7b9478e0-4d57-4f5c-ab5f-3ba4f727f3e1/08bf0f7a-9012-4e46-bc81-0474fdaf42c6"
-      (reference "J1201") (unit 1) (value "Conn_02x07_Top_Bottom") (footprint "")
+      (reference "J1201") (unit 1) (value "Conn_02x07_Top_Bottom") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical")
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/c2fdd8f4-ff86-459f-abd5-72795957771d"
       (reference "J1401") (unit 1) (value "FPGA_JTAG") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical_SMD")
+    )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/32658363-ec0a-46f9-9c2b-087291d5bf95"
+      (reference "J?") (unit 1) (value "mcu_debug") (footprint "debug-footprints:SAMTEC_FTSH-110-01-L-DV-007")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/34594e2a-e9d7-48cc-b0dd-d11375d69cfa"
       (reference "JP201") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
@@ -937,7 +937,7 @@
       (reference "U1402") (unit 1) (value "S25FL127SABMFV101") (footprint "SOC008_SPA")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/ebb8b7eb-cf39-445f-bdf4-1e18a6f82330"
-      (reference "Y301") (unit 1) (value "Crystal_GND24") (footprint "")
+      (reference "Y301") (unit 1) (value "Crystal_GND24") (footprint "oscillator-footprints:OSC_ECS-2520S25-250-FN-TR")
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/6c6185b8-38aa-42b6-83ec-b7aa299eca7c/e29515d2-2cd6-4b94-b5b2-a8ae35f1aa0d"
       (reference "Y1101") (unit 1) (value "ECS-2520MV-080-BN-TR") (footprint "oscillator-footprints:OSC_ECS-2520S25-250-FN-TR")
