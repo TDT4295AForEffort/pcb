@@ -11,4 +11,5 @@
   (lib (name "oscillator-footprints")(type "KiCad")(uri "${KIPRJMOD}/../components/oscillator/oscillator-footprints.pretty")(options "")(descr ""))
   (lib (name "crystal-footprints")(type "KiCad")(uri "${KIPRJMOD}/../components/crystal/crystal-footprints.pretty")(options "")(descr ""))
   (lib (name "debug-footprints")(type "KiCad")(uri "${KIPRJMOD}/../components/debug_header/debug-footprints.pretty")(options "")(descr ""))
+  (lib (name "fpga")(type "KiCad")(uri "${KIPRJMOD}/../components/fpga/footprints.pretty")(options "")(descr ""))
 )

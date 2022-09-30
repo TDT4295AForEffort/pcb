@@ -201,7 +201,6 @@
     )
   )
 
-
   (junction (at 142.24 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 381ff8f1-e324-432e-a907-29535ea41771)
   )
@@ -337,7 +336,7 @@
   (symbol (lib_id "Carl_symboler:mcu_debug") (at 151.13 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 32658363-ec0a-46f9-9c2b-087291d5bf95)
-    (property "Reference" "J?" (id 0) (at 151.13 82.55 0))
+    (property "Reference" "J1" (id 0) (at 151.13 82.55 0))
     (property "Value" "mcu_debug" (id 1) (at 151.13 85.09 0))
     (property "Footprint" "debug-footprints:SAMTEC_FTSH-110-01-L-DV-007" (id 2) (at 151.13 100.33 0)
       (effects (font (size 1.27 1.27)) hide)

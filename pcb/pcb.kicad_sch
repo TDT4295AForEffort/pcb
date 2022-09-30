@@ -171,8 +171,8 @@
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/be9cf1f2-8922-4c0b-b309-32cbda96273f"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/a5ec9a41-e8d4-4f29-9778-e4003fd3d2b0"
-      (reference "#PWR0201") (unit 1) (value "+1V8") (footprint "")
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/18c82b62-d393-4a68-9b16-e923d9a4a75b"
+      (reference "#PWR0104") (unit 1) (value "+1V8") (footprint "")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/6a054e2c-9b61-4bed-bb95-4932ecc64fa8"
       (reference "#PWR0202") (unit 1) (value "GND") (footprint "")
@@ -406,7 +406,7 @@
       (reference "#PWR01412") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/d4fd7fa8-1eb4-400c-9713-ed11f8aeaef4"
-      (reference "C201") (unit 1) (value "22u") (footprint "fpga:BGA256C100P16X16_1700X1700X155")
+      (reference "C201") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/8d552144-93e6-4433-9f95-d5ae766c2d7d"
       (reference "C202") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -675,6 +675,9 @@
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/e53d6fe0-5317-46c0-be61-5e705913826e/37f8fb19-021f-4929-96ee-db5cc9d7385c"
       (reference "D1004") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
+    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/32658363-ec0a-46f9-9c2b-087291d5bf95"
+      (reference "J1") (unit 1) (value "mcu_debug") (footprint "debug-footprints:SAMTEC_FTSH-110-01-L-DV-007")
+    )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/d385458d-0d15-4cee-a9bb-fe542b80e7d9"
       (reference "J301") (unit 1) (value "Conn_02x07_Top_Bottom") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical")
     )
@@ -692,9 +695,6 @@
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/c2fdd8f4-ff86-459f-abd5-72795957771d"
       (reference "J1401") (unit 1) (value "FPGA_JTAG") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical_SMD")
-    )
-    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/32658363-ec0a-46f9-9c2b-087291d5bf95"
-      (reference "J?") (unit 1) (value "mcu_debug") (footprint "debug-footprints:SAMTEC_FTSH-110-01-L-DV-007")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/34594e2a-e9d7-48cc-b0dd-d11375d69cfa"
       (reference "JP201") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
@@ -901,10 +901,10 @@
       (reference "S406") (unit 1) (value "GPTS203211B") (footprint "digikey-footprints:PushButton_12x12mm_THT_GPTS203211B")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/ac17eab2-4668-4181-93b9-b7f81cd1902b"
-      (reference "U201") (unit 1) (value "TPS54325PWPR") (footprint "PWP14_2P31X2P46")
+      (reference "U201") (unit 1) (value "TPS54325PWPR") (footprint "TPS54325:TPS54325PWPR")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/960c8ecf-ee9c-4b67-ab10-482b5fd9cca2"
-      (reference "U202") (unit 1) (value "TPS54294PWP") (footprint "PWP16_2P31X2P46")
+      (reference "U202") (unit 1) (value "TPS54294PWP") (footprint "TPS54294:TPS54294PWP")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/b46b5297-888f-43e6-926a-ebe8736d3108"
       (reference "U301") (unit 1) (value "EFM32GG990F1024") (footprint "BGA112")
@@ -915,23 +915,23 @@
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/13d19f4d-d99a-4eb6-9f7c-8adebd8a5c1e/43f933d1-a649-4536-897f-007b3ca84be4"
       (reference "U401") (unit 1) (value "COM-09032") (footprint "mcu_kicad:XDCR_COM-09032")
     )
+    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/6c6185b8-38aa-42b6-83ec-b7aa299eca7c/89e03184-df70-428b-9dd9-25a465aa942d"
+      (reference "U666") (unit 1) (value "XC7A75T-FTG256") (footprint "Package_BGA:Xilinx_FTG256")
+    )
+    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/7b9478e0-4d57-4f5c-ab5f-3ba4f727f3e1/159e0ef6-3d0c-44ca-b22e-ef8b14a2796c"
+      (reference "U666") (unit 2) (value "XC7A75T-FTG256") (footprint "Package_BGA:Xilinx_FTG256")
+    )
+    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/e451234c-602a-41d9-9b6b-f3b514f9b620"
+      (reference "U666") (unit 3) (value "XC7A75T-FTG256") (footprint "Package_BGA:Xilinx_FTG256")
+    )
+    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/0a9dd894-fb4f-4eca-a01e-a922517d068a/a148d12a-7527-4e58-8ecf-39e5dda8ab9b"
+      (reference "U666") (unit 4) (value "XC7A75T-FTG256") (footprint "Package_BGA:Xilinx_FTG256")
+    )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/ba36af6f-fbbc-4c19-acae-5c6f894a857f/e6245af2-5f49-49d2-a6e7-51c7f4f620de"
       (reference "U701") (unit 1) (value "AS7C316098A-10TIN") (footprint "sram:AS7C316098A-10TIN")
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/ba36af6f-fbbc-4c19-acae-5c6f894a857f/33659bad-97ca-4375-a050-91cf0bd10db1"
       (reference "U701") (unit 2) (value "AS7C316098A-10TIN") (footprint "sram:AS7C316098A-10TIN")
-    )
-    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/6c6185b8-38aa-42b6-83ec-b7aa299eca7c/29c3c657-5d59-4517-ad01-1be02dbb2017"
-      (reference "U1101") (unit 1) (value "XC7A100T-FTG256") (footprint "fpga:BGA256C100P16X16_1700X1700X155")
-    )
-    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/7b9478e0-4d57-4f5c-ab5f-3ba4f727f3e1/7f5a9c01-5b12-465c-8258-839f8008c02b"
-      (reference "U1201") (unit 2) (value "XC7A100T-FTG256") (footprint "fpga:BGA256C100P16X16_1700X1700X155")
-    )
-    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/0a9dd894-fb4f-4eca-a01e-a922517d068a/cb7f5d44-b0c7-4d95-876a-fd8c77eb7aed"
-      (reference "U1301") (unit 4) (value "XC7A100T-FTG256") (footprint "fpga:BGA256C100P16X16_1700X1700X155")
-    )
-    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/1af3dc8b-7139-4dae-9e17-e9239380479f"
-      (reference "U1401") (unit 3) (value "~") (footprint "fpga:BGA256C100P16X16_1700X1700X155")
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/e3de42ba-c8fc-4056-88b1-5eabca6d197d"
       (reference "U1402") (unit 1) (value "S25FL127SABMFV101") (footprint "SOC008_SPA")
