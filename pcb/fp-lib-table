@@ -13,4 +13,5 @@
   (lib (name "debug-footprints")(type "KiCad")(uri "${KIPRJMOD}/../components/debug_header/debug-footprints.pretty")(options "")(descr ""))
   (lib (name "fpga")(type "KiCad")(uri "${KIPRJMOD}/../components/fpga/footprints.pretty")(options "")(descr ""))
   (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/../components/usb/footprints.pretty")(options "")(descr ""))
+  (lib (name "flash")(type "KiCad")(uri "${KIPRJMOD}/../components/S25FL127SABMFV101/footprints.pretty")(options "")(descr ""))
 )
