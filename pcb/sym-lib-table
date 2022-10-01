@@ -14,4 +14,5 @@
   (lib (name "ECS-2520MV-080-BN-TR")(type "Legacy")(uri "${KIPRJMOD}/../components/oscillator/ECS-2520MV-080-BN-TR.lib")(options "")(descr ""))
   (lib (name "crystal-CX3225SB48000D0FFFCC")(type "Legacy")(uri "${KIPRJMOD}/../components/crystal/CX3225SB48000D0FFFCC.lib")(options "")(descr ""))
   (lib (name "debug-FTSH-110-01-L-DV-007")(type "Legacy")(uri "${KIPRJMOD}/../components/debug_header/FTSH-110-01-L-DV-007.lib")(options "")(descr ""))
+  (lib (name "usb")(type "Legacy")(uri "${KIPRJMOD}/../components/usb/2022-10-01_13-04-32.lib")(options "")(descr ""))
 )
