@@ -563,7 +563,7 @@
     (property "Value" "10067847-001RLF" (id 1) (at 130.81 72.39 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "10067847-001RLF_AMP" (id 2) (at 130.81 73.914 0)
+    (property "Footprint" "sd:10067847-001RLF" (id 2) (at 130.81 73.914 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 107.95 82.55 0)

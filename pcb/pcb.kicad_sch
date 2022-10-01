@@ -690,11 +690,8 @@
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/e53d6fe0-5317-46c0-be61-5e705913826e/37f8fb19-021f-4929-96ee-db5cc9d7385c"
       (reference "D1004") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
-    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/56b75160-c41e-4482-b9e3-cdee119bb2ce"
-      (reference "FB201") (unit 1) (value "FerriteBead") (footprint "")
-    )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/1ba13cd7-db69-493e-9f4d-5999aa36460b"
-      (reference "J201") (unit 1) (value "USB_B_Mini") (footprint "")
+      (reference "J201") (unit 1) (value "USB_B_Mini") (footprint "usb:USB2066-05-RBHM-15-STB-00-00-A")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/cf87e82b-8792-4bfe-8d19-5addf28b0ef7"
       (reference "J301") (unit 1) (value "Conn_02x05_Top_Bottom") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
@@ -706,7 +703,7 @@
       (reference "J601") (unit 1) (value "DB15_Female_HighDensity") (footprint "vga:618015330923")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/ce991ad9-d139-48ae-ab8f-bfb9221b9871/1299cd7f-5c3e-4d11-9ed1-a289ae98c4c6"
-      (reference "J801") (unit 1) (value "10067847-001RLF") (footprint "10067847-001RLF_AMP")
+      (reference "J801") (unit 1) (value "10067847-001RLF") (footprint "sd:10067847-001RLF")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/345a30ee-ee7e-4460-bf0f-fe91d93f898e/df379cc9-560d-4d90-b7e6-17f3893c62ab"
       (reference "J901") (unit 1) (value "FTSH-110-01-L-DV-007") (footprint "debug-footprints:SAMTEC_FTSH-110-01-L-DV-007")
@@ -955,7 +952,7 @@
       (reference "U701") (unit 2) (value "AS7C316098A-10TIN") (footprint "sram:AS7C316098A-10TIN")
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/e3de42ba-c8fc-4056-88b1-5eabca6d197d"
-      (reference "U1402") (unit 1) (value "S25FL127SABMFV101") (footprint "SOC008_SPA")
+      (reference "U1402") (unit 1) (value "S25FL127SABMFV101") (footprint "flash:S25FL127SABMFV101")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/ebb8b7eb-cf39-445f-bdf4-1e18a6f82330"
       (reference "Y301") (unit 1) (value "Crystal_GND24") (footprint "oscillator-footprints:OSC_ECS-2520S25-250-FN-TR")
