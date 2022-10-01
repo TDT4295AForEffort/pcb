@@ -337,7 +337,7 @@
   (symbol (lib_id "debug-FTSH-110-01-L-DV-007:FTSH-110-01-L-DV-007") (at 124.46 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid df379cc9-560d-4d90-b7e6-17f3893c62ab)
-    (property "Reference" "J?" (id 0) (at 124.46 77.47 0))
+    (property "Reference" "J901" (id 0) (at 124.46 77.47 0))
     (property "Value" "FTSH-110-01-L-DV-007" (id 1) (at 124.46 80.01 0))
     (property "Footprint" "debug-footprints:SAMTEC_FTSH-110-01-L-DV-007" (id 2) (at 124.46 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
