@@ -383,6 +383,8 @@
     (uuid f2d5ba5d-7f34-47a6-b6b1-cf92079a2180)
   )
 
+  (no_connect (at 43.18 53.34) (uuid 67c3f361-01fd-4669-9549-641025afb456))
+
   (wire (pts (xy 135.89 69.85) (xy 130.81 69.85))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 00d72028-f7fa-4eaf-9db0-3a00accc7fad)
