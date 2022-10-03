@@ -2290,7 +2290,7 @@
     (uuid c2fdd8f4-ff86-459f-abd5-72795957771d)
     (property "Reference" "J1401" (id 0) (at 128.27 49.53 0))
     (property "Value" "FPGA_JTAG" (id 1) (at 128.27 52.07 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical_SMD" (id 2) (at 127 63.5 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" (id 2) (at 127 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 127 63.5 0)
