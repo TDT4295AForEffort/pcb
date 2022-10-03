@@ -15,4 +15,5 @@
   (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/../components/usb/footprints.pretty")(options "")(descr ""))
   (lib (name "flash")(type "KiCad")(uri "${KIPRJMOD}/../components/S25FL127SABMFV101/footprints.pretty")(options "")(descr ""))
   (lib (name "330uF")(type "KiCad")(uri "${KIPRJMOD}/../components/330uF/footprints.pretty")(options "")(descr ""))
+  (lib (name "raycraft")(type "KiCad")(uri "${KIPRJMOD}/../components/signatur.pretty")(options "")(descr ""))
 )
