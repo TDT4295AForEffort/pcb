@@ -700,7 +700,7 @@
       (reference "J302") (unit 1) (value "1658525-9") (footprint "1658525-9-ribbon:TE_1658525-9")
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/388f1c0f-c03d-4ff8-b5bc-f0707333d9df/07e9f46e-1396-4767-901c-19ce022cf77c"
-      (reference "J601") (unit 1) (value "DB15_Female_HighDensity") (footprint "vga:618015330923")
+      (reference "J601") (unit 1) (value "DB15_Female_HighDensity") (footprint "assvga:AHDF15A-KG-TAXB")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/ce991ad9-d139-48ae-ab8f-bfb9221b9871/1299cd7f-5c3e-4d11-9ed1-a289ae98c4c6"
       (reference "J801") (unit 1) (value "10067847-001RLF") (footprint "sd:10067847-001RLF")

@@ -741,7 +741,7 @@
     (uuid 07e9f46e-1396-4767-901c-19ce022cf77c)
     (property "Reference" "J601" (id 0) (at 127 72.39 0))
     (property "Value" "DB15_Female_HighDensity" (id 1) (at 127 74.93 0))
-    (property "Footprint" "vga:618015330923" (id 2) (at 102.87 85.09 0)
+    (property "Footprint" "assvga:AHDF15A-KG-TAXB" (id 2) (at 102.87 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 102.87 85.09 0)
