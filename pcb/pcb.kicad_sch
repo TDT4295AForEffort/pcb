@@ -159,8 +159,14 @@
   )
 
   (symbol_instances
-    (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/48fcae11-f9ff-42e3-bef3-ef75c2f6d3c9"
-      (reference "#FLG0301") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/a4fbd76a-454c-4526-a482-1180a32fc480"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/271ea0a3-0d81-4ff7-99ad-08e1049a9512"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/de7f6eb2-9014-4970-8430-5a9cdfe4f94c"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/2aa537c7-efb0-46e2-81ad-fe9eeab0e71a/4de8685c-8936-4848-ae0b-4a62a334ac18"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -405,9 +411,6 @@
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/115272ed-ed36-40f6-b6f9-4acac920b483"
       (reference "#PWR01407") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/08d76d84-8614-4256-bb41-64c9d1912788"
-      (reference "#PWR01408") (unit 1) (value "~") (footprint "")
-    )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/108efa4e-88fe-4b71-ab1c-c39c05d3187b"
       (reference "#PWR01409") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -419,6 +422,9 @@
     )
     (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/13c21baf-43ef-4b6a-8b12-6d917ec3b2de"
       (reference "#PWR01412") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/d6b77a28-2a11-41d9-a4c4-2d95a2cfc52d/5d8097f5-d418-4d31-ac76-6640e1270020/87273ce8-5303-49ff-abf3-fcf1194a190d"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/3b22a2f7-b29a-4d17-ab95-ad9be8231bab/d4fd7fa8-1eb4-400c-9713-ed11f8aeaef4"
       (reference "C201") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
