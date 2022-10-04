@@ -1487,6 +1487,7 @@
     )
   )
 
+
   (junction (at 105.41 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 00f90828-48bf-4613-bb87-3b29577a9462)
   )
@@ -2143,7 +2144,7 @@
   (symbol (lib_id "power:+3.3V") (at 139.7 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 87273ce8-5303-49ff-abf3-fcf1194a190d)
-    (property "Reference" "#PWR?" (id 0) (at 139.7 104.14 0)
+    (property "Reference" "#PWR0120" (id 0) (at 139.7 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 142.24 99.0599 0)
